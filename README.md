@@ -15,7 +15,7 @@ To use this package with Swift package, edit `Package.swift` and add the followi
 dependencies: [
     .package(
         url: "https://github.com/bitkub-chain/bitkubchain-sdk-ios.git", 
-        from: "0.1.0"
+        from: "0.1.1"
     )
 ]
 ```
@@ -39,7 +39,7 @@ source 'https://github.com/bitkub-chain/bitkubchain-spece.git'
 Then within your application target add the pod as follows
 ```ruby
 target 'MyApp' do 
-  pod 'BitkubChainSDK', '~> 0.1.0'
+  pod 'BitkubChainSDK', '~> 0.1.1'
 end
 ```
 
