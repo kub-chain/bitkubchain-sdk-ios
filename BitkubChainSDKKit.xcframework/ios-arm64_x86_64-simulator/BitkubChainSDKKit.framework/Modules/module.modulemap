@@ -1,0 +1,6 @@
+framework module BitkubChainSDKKit {
+  umbrella header "BitkubChainSDKKit.h"
+  export *
+
+  module * { export * }
+}

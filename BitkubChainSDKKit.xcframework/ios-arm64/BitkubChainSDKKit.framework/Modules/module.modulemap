@@ -1,0 +1,11 @@
+framework module BitkubChainSDKKit {
+  umbrella header "BitkubChainSDKKit.h"
+  export *
+
+  module * { export * }
+}
+
+module BitkubChainSDKKit.Swift {
+  header "BitkubChainSDKKit-Swift.h"
+  requires objc
+}
