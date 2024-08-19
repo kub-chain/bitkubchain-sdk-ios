@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BitkubChainSDKKit.h</key>
 		<data>
-		W+KJsREao+qUMBTG0smGHE/Z3hA=
+		cwap+h12/fZej+P/J8N8I+6EF2I=
 		</data>
 		<key>Headers/bkcbase.h</key>
 		<data>
@@ -22,47 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		u9XoiJXE6ZeVSriSpV5TQDSOGBo=
-		</data>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
-		<data>
-		1/hQY0f4MWzRZe1mb41SHsjNlTg=
-		</data>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		+eQSqbyfTm3RDd+u91Bt9Cubf+A=
-		</data>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		h++hfPfj7G1Js+f1YWYRbP9P8EQ=
-		</data>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		+eQSqbyfTm3RDd+u91Bt9Cubf+A=
-		</data>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		PffSrQ5nTpISuZ5hwKATvpg66GQ=
-		</data>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		1/hQY0f4MWzRZe1mb41SHsjNlTg=
-		</data>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		uqpyOJMkTVSdWKaINrFkXR7nd6s=
-		</data>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		Hc3ZTvkyj1d0Blvyx+pxM+duyBk=
-		</data>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		uqpyOJMkTVSdWKaINrFkXR7nd6s=
-		</data>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		plAH53dVAxuS816NT35wgeQChy0=
+		rD4HZ64OHWmiHf5aGiDjhudpME4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +35,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AfiHl65ryiNgCOeCr6KkV/oRcRMWIpApkc+ZRJehiNc=
+			XIHMIsSY6Eq2NiBhFhczmzD2HEt/EiyQWcijXftWzC8=
 			</data>
 		</dict>
 		<key>Headers/bkcbase.h</key>
@@ -97,76 +57,6 @@
 			<key>hash2</key>
 			<data>
 			B2etT4eRk7zbc1ASEhN8/T4fZ0XWkWQu13pXfsgewbk=
-			</data>
-		</dict>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JFo0pJNfU4j7bYKS7wj4+mJUZGYeUJQDU/z3kGIvgr0=
-			</data>
-		</dict>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fS/m0gaiAxFATDWTssFL7PvTI/b0h1yrWTKXU0XQ5PM=
-			</data>
-		</dict>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fk3JjpNK/aDpPPDBAjpZOEhk76an9JwfXiJIzbYa2Wo=
-			</data>
-		</dict>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fS/m0gaiAxFATDWTssFL7PvTI/b0h1yrWTKXU0XQ5PM=
-			</data>
-		</dict>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uuyJ3j7vmPZpRnPuTND+X7SQRiWGdQI6Oy8hd2mN4AU=
-			</data>
-		</dict>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JFo0pJNfU4j7bYKS7wj4+mJUZGYeUJQDU/z3kGIvgr0=
-			</data>
-		</dict>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Jao8cnSz0wHTOEyflmjo4UqD/XW1pcsvnUO4F0YNhT8=
-			</data>
-		</dict>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TdmSZ/vL71RS33UqczOgJeVO1xnKG35keAmIY6j4gO0=
-			</data>
-		</dict>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Jao8cnSz0wHTOEyflmjo4UqD/XW1pcsvnUO4F0YNhT8=
-			</data>
-		</dict>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lez7TKlsstGEOPIBMx4YBC9qgwyos2rMo0R7hVbASSc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

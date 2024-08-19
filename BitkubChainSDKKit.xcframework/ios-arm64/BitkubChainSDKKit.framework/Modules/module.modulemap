@@ -4,8 +4,3 @@ framework module BitkubChainSDKKit {
 
   module * { export * }
 }
-
-module BitkubChainSDKKit.Swift {
-  header "BitkubChainSDKKit-Swift.h"
-  requires objc
-}

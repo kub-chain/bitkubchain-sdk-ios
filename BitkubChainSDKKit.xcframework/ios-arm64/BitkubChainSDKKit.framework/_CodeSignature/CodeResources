@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/BitkubChainSDKKit-Swift.h</key>
-		<data>
-		iEG7g2VIkXgC2oicbzf5i8Nq17k=
-		</data>
 		<key>Headers/BitkubChainSDKKit.h</key>
 		<data>
-		W+KJsREao+qUMBTG0smGHE/Z3hA=
+		cwap+h12/fZej+P/J8N8I+6EF2I=
 		</data>
 		<key>Headers/bkcbase.h</key>
 		<data>
@@ -26,47 +22,20 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kwakOhdkVPLWgNDG++yIwBVp0iE=
-		</data>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios.abi.json</key>
-		<data>
-		1/hQY0f4MWzRZe1mb41SHsjNlTg=
-		</data>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
-		<data>
-		f8AVXxPDKw77Ou9NpoyNpbQE4rE=
-		</data>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<data>
-		K2/QOw6E6qhsSyJCwQFXAj7GE1I=
-		</data>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<data>
-		f8AVXxPDKw77Ou9NpoyNpbQE4rE=
-		</data>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		0BRnL/tJiDp5rb1F9k8f4PLnc4k=
+		Ndc214OSQWZQFD/mLxb8wVwuVH0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		SSVjduMVbn3ih8/0FfpjMZbucbY=
+		JusVmO+buxOLBs+xNjmUvlzVtAA=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/BitkubChainSDKKit-Swift.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sldQMw8zAW2f73NzJ/1nXV8zBCybS7xB/ggrS4Fy4Bo=
-			</data>
-		</dict>
 		<key>Headers/BitkubChainSDKKit.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AfiHl65ryiNgCOeCr6KkV/oRcRMWIpApkc+ZRJehiNc=
+			XIHMIsSY6Eq2NiBhFhczmzD2HEt/EiyQWcijXftWzC8=
 			</data>
 		</dict>
 		<key>Headers/bkcbase.h</key>
@@ -90,46 +59,11 @@
 			B2etT4eRk7zbc1ASEhN8/T4fZ0XWkWQu13pXfsgewbk=
 			</data>
 		</dict>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JFo0pJNfU4j7bYKS7wj4+mJUZGYeUJQDU/z3kGIvgr0=
-			</data>
-		</dict>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+de4EtS7WAAypTwri2Whr2/0UjCRPM/KjbjAHLPAcfs=
-			</data>
-		</dict>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			T/Jc00b5kKAwwFTLQ3CEL7U6J659lY+K9FIlPpZzWaI=
-			</data>
-		</dict>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+de4EtS7WAAypTwri2Whr2/0UjCRPM/KjbjAHLPAcfs=
-			</data>
-		</dict>
-		<key>Modules/BitkubChainSDKKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jCeGY0gBlYpIzxYBkK9H+EXzcPAOKMk9pYBeRwXEK5g=
-			</data>
-		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZkTcr7xBavcBLewGEIiGeV0SEfFgkWbJjbt+KznsUEA=
+			/pHc0rUTNsjiBKLlJQ2CYqRHUxztBTQqE8Hz6sPNjq0=
 			</data>
 		</dict>
 	</dict>

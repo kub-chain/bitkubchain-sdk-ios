@@ -22,14 +22,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BitkubChainSDK : NSObject
 
-- (NSString *)__SYS_getClientID__;
-- (NSString *)__SYS_getSDKID__;
-- (NSString *)__SYS_getAccessToken__;
-
-- (int)initializeSDKWithClientID:(NSString * _Nonnull)clientID
-                           sdkID:(NSString * _Nonnull)sdkID
+- (int)initializeSDKWithClientID:(NSString *_Nonnull)clientID
+                           sdkID:(NSString *_Nonnull)sdkID
                          network:(enum NETWORK)network
-                        initOpts:(const InitOptions * _Nullable)initOpts;
+                        initOpts:(const InitOptions *_Nullable)initOpts;
 
 - (void)loginWithBitkubNext:(void (^)(int resultCode))completion NS_SWIFT_NAME(loginWithBitkubNext(completion:));
 - (int)logout;
@@ -42,10 +38,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (int)getUserQuota:(Quota *_Nonnull)quota;
 
 - (int)getBalanceNativeWithBalanceAndDecimals:(BalanceAndDecimals * _Nonnull)balanceAndDecimals NS_SWIFT_NAME(getBalanceNative(balanceAndDecimals:));
-- (int)getBalance20WithTokenAddress:(NSString * _Nonnull)tokenAddress
-                 balanceAndDecimals:(BalanceAndDecimals * _Nonnull)balanceAndDecimals;
+- (int)getBalance20WithTokenAddress:(NSString *_Nonnull)tokenAddress
+                 balanceAndDecimals:(BalanceAndDecimals *_Nonnull)balanceAndDecimals NS_SWIFT_NAME(getBalance20WithTokenAddress(_:balanceAndDecimals:));
 - (int)getBalance721WithTokenAddress:(NSString *_Nonnull)tokenAddress
-                             balance:(NSString *_Nullable *_Nonnull)balance;
+                             balance:(NSString *_Nullable *_Nonnull)balance NS_SWIFT_NAME(getBalance721WithTokenAddress(_:balance:));
 - (int)getTokenOfOwnerAll721WithTokenAddress:(NSString *_Nonnull)tokenAddress
                                   tokenArray:(NSArray<NSString *> *_Nullable *_Nonnull)tokenArray NS_SWIFT_NAME(getTokenOfOwnerAll721WithTokenAddress(_:tokenArray:));
 - (int)getTokenOfOwnerByPage721WithTokenAddress:(NSString *_Nonnull)tokenAddress
@@ -54,19 +50,18 @@ NS_ASSUME_NONNULL_BEGIN
                                      tokenArray:(NSArray<NSString *> *_Nullable *_Nonnull)tokenArray NS_SWIFT_NAME(getTokenOfOwnerByPage721WithTokenAddress(_:page:limit:tokenArray:));
 - (int)getMetadata721WithTokenAddress:(NSString *_Nonnull)tokenAddress
                               tokenID:(NSString *_Nonnull)tokenID
-                             metadata:(NSString *_Nullable *_Nonnull)metadata;
-- (int)getBalance1155WithTokenAddress:(NSString * _Nonnull)tokenAddress
-                              tokenID:(NSString * _Nonnull)tokenID
-                              balance:(NSString * _Nullable * _Nonnull)balance;
+                             metadata:(NSString *_Nullable *_Nonnull)metadata NS_SWIFT_NAME(getMetadata721WithTokenAddress(_:tokenID:metadata:));
+- (int)getBalance1155WithTokenAddress:(NSString *_Nonnull)tokenAddress
+                              tokenID:(NSString *_Nonnull)tokenID
+                              balance:(NSString *_Nullable * _Nonnull)balance NS_SWIFT_NAME(getBalance1155WithTokenAddress(_:tokenID:balance:));
 - (int)getMetadata1155WithTokenAddress:(NSString *_Nonnull)tokenAddress
                                tokenID:(NSString *_Nonnull)tokenID
-                              metadata:(NSString *_Nullable *_Nonnull)metadata;
+                              metadata:(NSString *_Nullable *_Nonnull)metadata NS_SWIFT_NAME(getMetadata1155WithTokenAddress(_:tokenID:metadata:));
 
 - (int)approveTokenWithTokenAddress:(NSString *_Nonnull)tokenAddress
                      spenderAddress:(NSString *_Nonnull)spenderAddress
                              amount:(NSString *_Nonnull)amount
                              result:(SubmitTransactionResult *_Nonnull)result NS_SWIFT_NAME(approveTokenWithTokenAddress(_:spenderAddress:amount:result:));
-
 - (int)approveNFTWithTokenAddress:(NSString *_Nonnull)tokenAddress
                   operatorAddress:(NSString *_Nonnull)operatorAddress
                            result:(SubmitTransactionResult *_Nonnull)result NS_SWIFT_NAME(approveNFTWithTokenAddress(_:operatorAddress:result:));
@@ -88,6 +83,10 @@ NS_ASSUME_NONNULL_BEGIN
                              amount:(NSString *_Nonnull)amount
                              result:(SubmitTransactionResult *_Nonnull)result NS_SWIFT_NAME(transfer1155WithTokenAddress(_:toAddress:tokenID:amount:result:));
 
+- (int)sendCustomTransactionWithToAddress:(NSString *_Nonnull)toAddress
+                      functionReadableABI:(NSString *_Nonnull)functionReadableABI
+                                   params:(NSArray<NSString *> *)params
+                                   result:(SubmitTransactionResult *_Nonnull)result NS_SWIFT_NAME(sendCustomTransactionWithToAddress(_:functionReadableABI:params:result:));
 - (int)getTransactionDetailsWithTransactionID:(NSString *_Nonnull)transactionID
                                        result:(TransactionDetails *_Nonnull)result NS_SWIFT_NAME(getTransactionDetailsWithTransactionID(_:result:));
 
