@@ -46,7 +46,7 @@ end
 Alternatively, you can let CocoaPods resolve this package directly with git:
 ```ruby
 target 'MyApp' do
-  pod 'BitkubChainSDK', :git => https://github.com/bitkub-chain/bitkubchain-sdk-ios.git, :branch => 'main'
+  pod 'BitkubChainSDK', :git => 'https://github.com/bitkub-chain/bitkubchain-sdk-ios.git', :branch => 'main'
 end
 ```
 **Notes**: Check CocoaPods [documentation](https://guides.cocoapods.org/using/the-podfile.html) for more details.
