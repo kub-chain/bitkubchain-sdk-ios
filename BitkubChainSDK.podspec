@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name       = "BitkubChainSDK"
-  spec.version    = "0.1.1"
+  spec.version    = "0.1.2"
   spec.summary    = "Bitkub Chain SDK"
   spec.license    = { :type => "UNLICENSED" }
   spec.homepage   = "https://github.com/bitkub-chain/bitkubchain-sdk-ios.git"
