@@ -39,7 +39,7 @@ Now for any targets that depend on this package, add dependency as follow:
 Add the following source to your `Podfile`
 
 ```ruby
-source 'https://github.com/bitkub-chain/bitkubchain-spece.git'
+source 'https://github.com/bitkub-chain/bitkubchain-specs.git'
 ```
 
 Then within your application target add the pod as follows
