@@ -1,4 +1,4 @@
-# Bitkub Chain SDK
+# BitkubNextSDK
 
 Software Developer Kit that allow you to access various features provided Bitkub Chain.
 
