@@ -37,7 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (int)getUserID:(NSString *_Nullable *_Nonnull)userID;
 - (int)getUserQuota:(Quota *_Nonnull)quota;
 
-- (int)getBalanceNativeWithBalanceAndDecimals:(BalanceAndDecimals * _Nonnull)balanceAndDecimals NS_SWIFT_NAME(getBalanceNative(balanceAndDecimals:));
+- (int)getBalanceNativeWithBalanceAndDecimals:(BalanceAndDecimals *_Nonnull)balanceAndDecimals NS_SWIFT_NAME(getBalanceNative(balanceAndDecimals:));
 - (int)getBalance20WithTokenAddress:(NSString *_Nonnull)tokenAddress
                  balanceAndDecimals:(BalanceAndDecimals *_Nonnull)balanceAndDecimals NS_SWIFT_NAME(getBalance20WithTokenAddress(_:balanceAndDecimals:));
 - (int)getBalance721WithTokenAddress:(NSString *_Nonnull)tokenAddress
@@ -53,15 +53,31 @@ NS_ASSUME_NONNULL_BEGIN
                              metadata:(NSString *_Nullable *_Nonnull)metadata NS_SWIFT_NAME(getMetadata721WithTokenAddress(_:tokenID:metadata:));
 - (int)getBalance1155WithTokenAddress:(NSString *_Nonnull)tokenAddress
                               tokenID:(NSString *_Nonnull)tokenID
-                              balance:(NSString *_Nullable * _Nonnull)balance NS_SWIFT_NAME(getBalance1155WithTokenAddress(_:tokenID:balance:));
+                              balance:(NSString *_Nullable *_Nonnull)balance NS_SWIFT_NAME(getBalance1155WithTokenAddress(_:tokenID:balance:));
 - (int)getMetadata1155WithTokenAddress:(NSString *_Nonnull)tokenAddress
                                tokenID:(NSString *_Nonnull)tokenID
                               metadata:(NSString *_Nullable *_Nonnull)metadata NS_SWIFT_NAME(getMetadata1155WithTokenAddress(_:tokenID:metadata:));
 
+- (int)getAllowanceTokenWithTokenAddress:(NSString *_Nonnull)tokenAddress
+                               allowance:(NSString *_Nullable *_Nonnull)allowance NS_SWIFT_NAME(getAllowanceTokenWithTokenAddress(_:allowance:));
+- (int)getAllowanceTokenWithTokenAddress:(NSString *_Nonnull)tokenAddress
+                          spenderAddress:(NSString *_Nonnull)spenderAddress
+                               allowance:(NSString *_Nullable *_Nonnull)allowance NS_SWIFT_NAME(getAllowanceTokenWithTokenAddress(_:spenderAddress:allowance:));
+- (int)getIsApprovedNFTWithTokenAddress:(NSString *_Nonnull)tokenAddress
+                             isApproved:(BOOL *_Nonnull)isApproved NS_SWIFT_NAME(getIsApprovedNFTWithTokenAddress(_:isApproved:));
+- (int)getIsApprovedNFTWithTokenAddress:(NSString *_Nonnull)tokenAddress
+                        operatorAddress:(NSString *_Nonnull)operatorAddress
+                             isApproved:(BOOL *_Nonnull)isApproved NS_SWIFT_NAME(getIsApprovedNFTWithTokenAddress(_:operatorAddress:isApproved:));
+
 - (int)approveTokenWithTokenAddress:(NSString *_Nonnull)tokenAddress
-                     spenderAddress:(NSString *_Nonnull)spenderAddress
                              amount:(NSString *_Nonnull)amount
-                             result:(SubmitTransactionResult *_Nonnull)result NS_SWIFT_NAME(approveTokenWithTokenAddress(_:spenderAddress:amount:result:));
+                             result:(SubmitTransactionResult *_Nonnull)result NS_SWIFT_NAME(approveTokenWithTokenAddress(_:amount:result:));
+- (int)approveTokenWithTokenAddress:(NSString *_Nonnull)tokenAddress
+                             amount:(NSString *_Nonnull)amount
+                     spenderAddress:(NSString *_Nonnull)spenderAddress
+                             result:(SubmitTransactionResult *_Nonnull)result NS_SWIFT_NAME(approveTokenWithTokenAddress(_:amount:spenderAddress:result:));
+- (int)approveNFTWithTokenAddress:(NSString *_Nonnull)tokenAddress
+                           result:(SubmitTransactionResult *_Nonnull)result NS_SWIFT_NAME(approveNFTWithTokenAddress(_:result:));
 - (int)approveNFTWithTokenAddress:(NSString *_Nonnull)tokenAddress
                   operatorAddress:(NSString *_Nonnull)operatorAddress
                            result:(SubmitTransactionResult *_Nonnull)result NS_SWIFT_NAME(approveNFTWithTokenAddress(_:operatorAddress:result:));

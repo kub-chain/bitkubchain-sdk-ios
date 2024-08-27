@@ -1,6 +1,6 @@
 # Bitkub Chain SDK
 
-Software Developer Kit that allow you to access various features provided Bitkub Chain.
+Software Developer Kit that allow you to access various features provided by Bitkub Chain.
 
 ## Installation
 
@@ -18,7 +18,7 @@ To use this package with Swift package, edit `Package.swift` and add the followi
 dependencies: [
     .package(
         url: "https://github.com/bitkub-chain/bitkubchain-sdk-ios.git",
-        from: "0.1.3"
+        from: "0.1.4"
     )
 ]
 ```
@@ -46,7 +46,7 @@ Then within your application target add the pod as follows
 
 ```ruby
 target 'MyApp' do
-  pod 'BitkubChainSDK', '~> 0.1.3'
+  pod 'BitkubChainSDK', '~> 0.1.4'
 end
 ```
 

@@ -6,15 +6,15 @@
 	<dict>
 		<key>Headers/BitkubChainSDKKit.h</key>
 		<data>
-		cwap+h12/fZej+P/J8N8I+6EF2I=
+		Asqi1jzA5su/hNCA5Zq9u/Acv6c=
 		</data>
 		<key>Headers/bkcbase.h</key>
 		<data>
-		I9I47SqKZAaNNvJKGOoo8fFuT7o=
+		ByVavh1qovwH4tzeyuj/BPUKz4Y=
 		</data>
 		<key>Headers/bkcerr.h</key>
 		<data>
-		33JsnVrobA/hAElxQgmH4f4VToU=
+		0geLwNU50Y+r8yy4jk10w54DJf4=
 		</data>
 		<key>Headers/bkctypes.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wCrZv2fTwLlL0kP7TUvHmHbdOMk=
+		v+r6nrbudkEzveAWgtIZvM11Now=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,21 +35,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XIHMIsSY6Eq2NiBhFhczmzD2HEt/EiyQWcijXftWzC8=
+			pbUmYowOOqRpNA1UzCDNdnPXcVrDcB3Zc7tKGEBEUTE=
 			</data>
 		</dict>
 		<key>Headers/bkcbase.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A4E0/xz2x41QlqyHPw05j2sHghN7cWbl3iYnTcKi6W4=
+			rwUkU3PfZvy5tlQmlFVGQ0N4PaOYVOd+DoJTJjxvgl8=
 			</data>
 		</dict>
 		<key>Headers/bkcerr.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iHdlmCdmavIF4uXYaRdj+9EUS/Hv3FlX+DVXUZV954c=
+			3rUdOCbg1krrOIkCeh1DvcTRDU3oEUWtTqnOcChcmH4=
 			</data>
 		</dict>
 		<key>Headers/bkctypes.h</key>
